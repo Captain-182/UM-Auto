@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://captain-182.github.io/UM-Auto/sitemap.xml

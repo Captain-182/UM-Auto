@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Sample drawing: a repaired car">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcdcd6"/><stop offset="1" stop-color="#c9c9c2"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d94a34"/><stop offset="0.55" stop-color="#b8321f"/><stop offset="1" stop-color="#8f2415"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9fb4c0"/><stop offset="1" stop-color="#5f7684"/></linearGradient>
+    <radialGradient id="shadow"><stop offset="0" stop-color="#000" stop-opacity=".38"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#wall)"/>
+  <rect y="505" width="1200" height="170" fill="#b3b3ab"/>
+  <rect y="503" width="1200" height="4" fill="#9b9b93"/>
+  <ellipse cx="610" cy="528" rx="520" ry="34" fill="url(#shadow)"/>
+  <path d="M120 452 L120 392 Q120 360 156 355 L292 346 Q372 342 428 282 L506 226 Q526 212 584 212 L742 212 Q792 214 832 258 L902 338 L1034 352 Q1084 358 1092 396 L1092 452 Z" fill="url(#body)"/>
+  <path d="M120 430 L1092 430 L1092 452 L120 452 Z" fill="#6f1c10" opacity=".55"/>
+  <path d="M452 292 L520 240 Q534 230 580 230 L736 230 Q764 232 790 262 L836 322 L452 322 Z" fill="url(#glass)"/>
+  <path d="M640 230 L640 322" stroke="#3b3b38" stroke-width="7"/>
+  <path d="M470 288 L548 236" stroke="#fff" stroke-opacity=".35" stroke-width="10" stroke-linecap="round"/>
+  <path d="M640 322 L640 430 M470 322 L470 430 M810 322 L810 430" stroke="#6f1c10" stroke-width="3" fill="none" opacity=".7"/>
+  <rect x="580" y="344" width="44" height="9" rx="4.5" fill="#e8e6df"/>
+  <rect x="740" y="344" width="44" height="9" rx="4.5" fill="#e8e6df"/>
+  <path d="M150 372 Q620 352 1060 376" stroke="#fff" stroke-opacity=".28" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M1048 366 L1086 372 L1086 396 L1040 392 Z" fill="#f7efd0"/>
+  <path d="M122 372 L150 368 L150 392 L122 394 Z" fill="#9d1b12"/>
+  <path d="M1092 424 L1030 438" stroke="#4d1209" stroke-width="3" opacity=".6"/>
+  <g><circle cx="318" cy="466" r="78" fill="#2b2a28"/><circle cx="318" cy="466" r="64" fill="#1a1a19"/><circle cx="318" cy="466" r="42" fill="#c9c9c4"/><circle cx="318" cy="466" r="34" fill="#9a9a95"/>
+    <path d="M318 424 L318 508 M276 466 L360 466 M288 436 L348 496 M348 436 L288 496" stroke="#7a7a75" stroke-width="5"/><circle cx="318" cy="466" r="10" fill="#e4e4df"/></g>
+  <g><circle cx="900" cy="466" r="78" fill="#2b2a28"/><circle cx="900" cy="466" r="64" fill="#1a1a19"/><circle cx="900" cy="466" r="42" fill="#c9c9c4"/><circle cx="900" cy="466" r="34" fill="#9a9a95"/>
+    <path d="M900 424 L900 508 M858 466 L942 466 M870 436 L930 496 M930 436 L870 496" stroke="#7a7a75" stroke-width="5"/><circle cx="900" cy="466" r="10" fill="#e4e4df"/></g>
+</svg>

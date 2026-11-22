@@ -406,3 +406,6 @@ html.js .reveal.in { opacity: 1; transform: none; }
 
 .site-nav { align-items: center; }
 .site-nav > a { display: inline-flex; align-items: center; padding-block: 0.6rem; }
+
+.stat__n--word { font-size: clamp(1.9rem, 1.2rem + 2.6vw, 3.2rem); line-height: 1.05; }
+html[lang="ar"] .stat__n--word { direction: rtl; }
